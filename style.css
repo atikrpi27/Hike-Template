@@ -1,0 +1,131 @@
+.navbar-brand img{
+    width: 100px;
+    height: 45px;
+}
+
+.navbar a:hover{
+    color: deepskyblue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.navbar a{
+    color: black;
+    font-family: Adobe Naskh;
+    font-size: 24px;
+}
+
+/* -----------footer start------------- */
+
+.footer{
+    background: #1f1e1e;
+    margin-top: 1000px;
+}
+
+.left img{
+    height: 160px;
+    width: 120px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+
+
+.social li{
+	list-style:none;
+	float:left;
+	margin-top: 25px;
+	display: inline-block;
+	
+}
+
+.social li a{
+    text-decoration: none;
+    display: block;
+    background: #353535;
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 10px;
+    margin-left: 5px;
+    transition: transform 1s;
+    padding: 8px;
+}
+
+.social li a:hover{
+	background:#6565653b;
+	color:red;
+	transform: rotate(360deg);
+	font-size:17px;
+
+}
+
+.social {
+    
+    display: flex;
+    margin-bottom: 25px;
+    
+}
+
+.footer-left p{
+    font-size: 14px;
+    margin-top: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.all-link{
+    margin-top: 70px;
+}
+
+/* -----------footer end------------- */
+
+/* ------------back button start---------- */
+
+#back-to-top-btn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size:26px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    transition-duration: .5s;
+    border-radius: 50%;
+    transition-property: background-color,color; 
+    transition-timing-function: ease-in-out;
+}
+
+@media(max-width:992px){
+    #back-to-top-btn{
+        height: 40px;
+        width: 40px;
+        font-size: 22px;
+    }
+}
+@media(max-width:768px){
+    #back-to-top-btn{
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+
+    }
+}
+
+#back-to-top-btn:hover,#back-to-top-btn:focus{
+    background-color: black;
+    color: white
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ------------back button end---------- */
